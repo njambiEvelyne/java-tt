@@ -10,7 +10,7 @@ public class ifelsedec {
       System.out.println("The digit is above average");
     }
     //Nested if statements
-    int x= 10;
+    int x= 20;
     //Outer statements
     if (x < 15){
       System.out.println("i is smaller than 15");
@@ -19,6 +19,9 @@ public class ifelsedec {
       if (x == 10){
         System.out.println("i is xactly 10");
       }
+    }
+    else{
+      System.out.println("x is the greatest");
     }
   }
   

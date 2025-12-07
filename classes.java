@@ -22,8 +22,16 @@ public static void main(String[] args) {
   //Inheritance
   class Animal {
     String name;
+    double years;
+
     public Animal(String name) {
       this.name = name;
+      
+    }
+
+    public void old(double years){
+      this.years = years;
+      System.out.println(name + " is "+ years + " years old.");
     }
 
     public void eat() {
@@ -35,12 +43,13 @@ public static void main(String[] args) {
   class Dog extends Animal{
     //Dog inherits the 'name' field and the 'eat' method
     public Dog(String name){
-      //Calls the constructor of the Suoerclass (Animal)
+      //Calls the constructor of the Superclass (Animal)
       super(name);
     }
     public void bark(){
       System.out.println(name + " is barking.");
     }
+  
   }
 
   Dog mydog = new Dog("Buddy");
@@ -50,7 +59,7 @@ public static void main(String[] args) {
 
   //mydog can call its own specific bark() method
   mydog.bark(); //Output: Buddy is barking
-  
+  mydog.old(3.0);
 
 
 }

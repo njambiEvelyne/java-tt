@@ -22,13 +22,13 @@ public static void main(String[] args) {
   //Inheritance
   class Animal {
     String name;
-    double years;
+    //double years;
 
     public Animal(String name) {
       this.name = name;
       
     }
-
+    double years;
     public void old(double years){
       this.years = years;
       System.out.println(name + " is "+ years + " years old.");

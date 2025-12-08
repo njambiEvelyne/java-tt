@@ -23,5 +23,20 @@ for (int i = 1; i <= 3; i++) {
       System.out.print(i + "," + j + " ");
     }
 }
+//A code snippet to run and print out stars in a staright pattern lines
+for (int d =1; d <=5; d++){
+  for (int j =1; j<=5; j++){
+    System.out.print("*");
+  }
+  System.out.println();
+
+}
+//A right-angled pattern
+for(int y=1; y<=5; y++){
+  for (int f=1; f<=y; f++){
+    System.out.print("*");
+  }
+  System.out.println();
+}
   }
 }

@@ -8,6 +8,9 @@ class staticandinst {
   public static void main(String[] args) {
     //Calling the method directly
     greet();
+
+    //Using the class name
+    staticandinst.greet();
     
   }
 }

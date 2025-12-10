@@ -3,9 +3,22 @@ package Methods;
 public class methods {
   public static void main(String[] args) {
     String name = "Evelyne";
-    hello(name);
+    int age = 20;
+    hello(name, age);
+    int x =5; 
+    int y =7;
+
+    int z = add(x, y);
+    System.out.println(z);
   }
-  static void hello(String name){
+  static void hello(String name, int age){
     System.out.println("Hello " + name);
+    System.out.println("You are "+ age + "years old.");
+  }
+
+  static int add(int x, int y){
+    int z = x +  y;
+    return z;
+
   }
 }

@@ -22,7 +22,7 @@ public class calc {
       switch (choice) {
         case "+":
           result = num1 + num2;
-          System.out.println(num1 +"+" + +num2 +"=" +result);
+          System.out.println(num1 +"+"  +num2 +"=" +result);
           break;
 
         case "-":
@@ -41,8 +41,8 @@ public class calc {
             
           }
           else{
-            result = num1 / num2;
-            System.out.println(num1 +"/" + num2 +  "=" + result);
+            double divResult = (double)num1 / num2;
+            System.out.println(num1 +"/" + num2 +  "=" + divResult);
 
           }
           break;

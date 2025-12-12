@@ -36,11 +36,25 @@ public class varargs {
     }
     return summation/conts.length;
    }
+
+   //varargs with other arguments
+   static void fun(String s, int ...a){
+    System.out.println("String: " + s);
+    System.out.println("Number of arguments is: " + a.length);
+
+        //Using for each loop to display contents of a 
+    for(int t:a){
+      System.out.println(t+" ");
+
+    System.out.println();
+    }
+   }
   public static void main(String[] args) {
     Names("geeks1, geeks1, geeks3, geeks4, geeks5");
     Names("geek12, geek13, geek14, geek17");
     System.out.println(add(12,34,56,78,90));
     System.out.println(average(12.34, 234,223, 3456, 23.6));
-    
+    fun("Evelyne", 200, 400, 34);
+
   }
 }

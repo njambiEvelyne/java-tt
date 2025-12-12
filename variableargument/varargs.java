@@ -28,6 +28,9 @@ public class varargs {
    }
    static double average(double...conts){
     double summation = 0;
+    if (conts.length == 0){
+      return 0;
+    }
     for(double o :conts){
       summation += o;
     }

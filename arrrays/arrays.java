@@ -9,7 +9,5 @@ class Student{
   }
 }
 public class arrays {
-  public static void main(String[] args) {
-    
-  }
+  publ
 }

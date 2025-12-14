@@ -29,6 +29,16 @@ public class arrays2 {
       System.out.println("Element at " +i + " :{" + arr[i].roll_no + " " + arr[i].name +"}");
     }
 
+    int digits []= new int[4];
+    digits[0] = 10;
+    digits[1] = 20;
+    digits[2] = 30;
+    digits[3] = 20;
+
+    System.out.println("Trying to acces elements outside the size of the array");
+    System.out.println(digits[3]);
+
+
   }
   
 }

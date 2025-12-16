@@ -17,5 +17,19 @@ public class mitidimensionarr {
     System.out.println("arr [0][0] = " + arr[0][0]);
     System.out.println("arr [0][1] = " + arr[0][1]);
     System.out.println("arr [0][2] = " + arr[0][2]);
+
+    String names [][];
+    names = new String [2][3];
+
+    names [0][0] = "Evelyne";
+    names [0][1] = "Rose";
+    names[0][2] = "Elizabeth";
+    names[1][0] = "Peter";
+    names[1][1] = "James";
+    names[1][2]= "Gorgeana";
+
+    System.out.println("arr [0[[0] = "+ names[0][0]);
+    System.out.println("arr[0][1] = " +names[0][1]);
+    System.out.println("arr [1][2] = " +names[1][2]);
   }
 }

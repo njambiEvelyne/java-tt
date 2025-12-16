@@ -31,5 +31,16 @@ public class mitidimensionarr {
     System.out.println("arr [0[[0] = "+ names[0][0]);
     System.out.println("arr[0][1] = " +names[0][1]);
     System.out.println("arr [1][2] = " +names[1][2]);
+
+    int arr2 [][] = {{1,2}, {3,4}};
+    
+    //Printing the Array
+    for(int i =0; i<2; i++){
+      for(int j =0; j <2; j++)
+        System.out.print(arr2[i][j]+ " ");
+        System.out.println();
+      
+
+    }
   }
 }

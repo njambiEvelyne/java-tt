@@ -1,5 +1,6 @@
 package arrrays;
 ///import java.io.*;
+import java.util.Scanner;
 
 public class mitidimensionarr {
   public static void main(String[] args) {
@@ -68,5 +69,28 @@ public class mitidimensionarr {
     int arr4 [][]= {{1,2}, {3,4}};
 
     System.out.println("a[1][1] : " + arr4[1][1]);
+    //Craeting a two dimensional array with user input
+
+    Scanner sc = new Scanner(System.in);
+    //Taking Number of Rows and Columns from User
+    System.out.println("Enter the rows: ");
+    int row = sc.nextInt();
+
+    System.out.print("Enter number of columns: ");
+    int col = sc.nextInt();
+
+    int arr5 [][] = new int [row][col];
+
+    System.out.println("Enter elements of array: ");
+
+    //Taking input from user for each element of array using nested for loop
+    for(int i =0; i<row; i++){
+      for(int j =0; j<col; j++){
+        System.out.print(arr5[i][j]+ " ");
+      }
+      System.out.println();
+    }
+    sc.close();
+
   }
 }

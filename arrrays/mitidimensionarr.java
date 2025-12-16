@@ -42,5 +42,26 @@ public class mitidimensionarr {
       
 
     }
+
+    int n =2;
+    int m = 2;
+    //Array declared and initialized
+    int[][] arr3 = new int[n][m];
+
+    int it =1;
+
+    //Assigning the values to array
+    for(int i=0; i<n; i++){
+      for(int j =0; j<m; j++){
+        arr3[i][j] = it;
+        it++;
+      }
+    }
+    //Printing the Array
+    for(int i = 0; i<n; i++){
+      for(int j =0; j<m; j++)
+        System.out.print(arr3[i][j] + " ");
+      System.out.println();
+    }
   }
 }

@@ -1,4 +1,5 @@
 package arrrays;
+///import java.io.*;
 
 public class mitidimensionarr {
   public static void main(String[] args) {
@@ -63,5 +64,9 @@ public class mitidimensionarr {
         System.out.print(arr3[i][j] + " ");
       System.out.println();
     }
+
+    int arr4 [][]= {{1,2}, {3,4}};
+
+    System.out.println("a[1][1] : " + arr4[1][1]);
   }
 }

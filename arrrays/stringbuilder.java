@@ -14,7 +14,7 @@ public class stringbuilder {
 
    StringBuilder sb3 = new StringBuilder("Geeks");
    sb3.append("ForGeeks");
-   System.out.println("sb3" + sb3);
+   System.out.println("sb3: " + sb3);
 
    CharSequence cs ="Java";
    StringBuilder sb4 = new StringBuilder(cs);

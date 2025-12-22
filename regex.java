@@ -6,4 +6,3 @@ public class regex {
     System.out.println(Pattern.matches("geeks[0-9]+", "geeks12s"));//false
   }
 }
-johrycgvjhnkmlmmk 

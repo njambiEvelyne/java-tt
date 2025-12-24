@@ -31,8 +31,14 @@ $array1 = array(
   "address" => "evelyne nganga76@gmail.com"
 );
 print_r($array1);
-echo "Name: " .$array1["name"]. "Age: ". $array1["age"]. "Address: ".$array1["address"]
+echo "Name: " .$array1["name"]. " Age: ". $array1["age"]. " Address: ".$array1["address"];
 
-
+$array2 = array(
+    1    => "a",
+    "1"  => "b",
+    1.5  => "c",
+    true => "d",
+);
+var_dump($array2);
 
 ?>

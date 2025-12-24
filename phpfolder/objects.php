@@ -55,4 +55,6 @@ echo "Pi value: " . pi() . "<br>\n";
 echo "Random number (10-100): " . rand(10, 100) . "<br>\n";
 echo "Maximum value (1,3,4,6,90): " . max(1,3,4,6,90) . "<br>\n";
 echo "Minimum value (2,4,8,889): " . min(2,4,8,889) . "<br>\n";
+
+
 ?>

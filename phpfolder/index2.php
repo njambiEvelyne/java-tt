@@ -46,6 +46,17 @@ $array2 = array(
     true => "d",
 );
 var_dump($array2);
+echo "\n";
+
+$array3 = array(
+    "foo" => "bar",
+    "bar" => "foo",
+    100   => -100,
+    -100  => 100,
+);
+var_dump($array3);
+
+
 
 
 ?>

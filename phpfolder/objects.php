@@ -1,0 +1,6 @@
+<?php
+//Objects in php
+
+
+
+?>

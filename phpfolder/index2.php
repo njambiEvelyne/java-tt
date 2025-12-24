@@ -56,11 +56,11 @@ $array3 = array(
 );
 var_dump($array3);
 
-foreach($arr as $array3){
-  echo $arr . "<br>";
+$foods = array("orange", "banana", "coconut", "pineapple");
+
+foreach($foods as $food){
+  echo $food. "<br>\n";
 }
-
-
 
 
 ?>

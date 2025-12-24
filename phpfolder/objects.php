@@ -19,4 +19,13 @@ $game -> price = 14.99;
 $game -> photo = "bioshock-infinite.jpg";
 
 $game ->print_Details();
+
+class foo{
+  function do_foo(){
+    echo "Doing foo";
+  }
+}
+
+$bar = new foo;
+$bar->do_foo();
 ?>

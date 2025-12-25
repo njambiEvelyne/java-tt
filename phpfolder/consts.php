@@ -1,7 +1,12 @@
 <?php
 
-define ("GREETING", "Welcome to today's podcast!");
+define ("GREETING", "Welcome to today's podcast! <br> \n");
+
 
 echo GREETING;
+const WELCOME = "Welcome to the podcast!";
+echo WELCOME;
 
+define ("Cars", array ("Volvo", "BMW", "Toyota"));
+print_r(Cars);
 ?>

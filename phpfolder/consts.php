@@ -12,5 +12,18 @@ print_r(Cars);
  $a = 23;
  $b =7;
  if ($a > $b) $r = "Hello";
+
+ if ($a >13){
+  echo "Greater than 13";
+  if($a >20){
+    echo " and 20";
+  }
+  else{
+    echo "but not twenty";
+  }
+ }
+ else{
+  echo "Less than 13";
+ }
 ?>
 

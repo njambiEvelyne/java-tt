@@ -14,7 +14,6 @@ $favcolor = "red";switch ($favcolor){
 
   default:
   echo "Your favourite color is neither red, blue, nor green!";
-  
 }
 
 ?>
